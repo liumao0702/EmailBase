@@ -126,6 +126,13 @@
         </dependency>
         <!-- test相关-->
 
+        <!--java mail 相关-->
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4.7</version>
+        </dependency>
+        <!--java mail 相关-->
         <!-- 日志库 -->
         <dependency>
             <groupId>commons-logging</groupId>

@@ -57,17 +57,17 @@
             <div class="alert alert-info">
                 Please login QQ Email with your Username and Password.
             </div>
-            <form class="form-horizontal" action="/index" method="post">
+            <form class="form-horizontal" action="/login" method="post">
                 <fieldset>
                     <div class="input-group input-group-lg">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-user red"></i></span>
-                        <input type="text" class="form-control" placeholder="Username">
+                        <input type="text" class="form-control" placeholder="Username" name="name">
                     </div>
                     <div class="clearfix"></div><br>
 
                     <div class="input-group input-group-lg">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-lock red"></i></span>
-                        <input type="password" class="form-control" placeholder="Password">
+                        <input type="password" class="form-control" placeholder="Password" name="passwd">
                     </div>
                     <div class="clearfix"></div>
 

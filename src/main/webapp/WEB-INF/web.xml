@@ -5,7 +5,7 @@
 	http://java.sun.com/xml/ns/j2ee/web-app_2_5.xsd">
     <context-param>
         <param-name>webAppRootKey</param-name>
-        <param-value>cctc.root</param-value>
+        <param-value>EmailBase.root</param-value>
     </context-param>
     <display-name>EmailBase</display-name>
     <!--由Sprng载入的Log4j配置文件位置-->
