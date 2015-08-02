@@ -190,11 +190,11 @@
                 <configuration>  
                     <container>  
                         <containerId>tomcat6x</containerId>  
-                        <home>D:\apache-tomcat-6.0.35</home>  
+                        <home>/home/lm/stu01/apache-tomcat-8.0.24</home>  
                     </container>  
                     <configuration>  
                         <type>existing</type>  
-                        <home>D:\apache-tomcat-6.0.35</home>  
+                        <home>/home/lm/stu01/apache-tomcat-8.0.24</home>  
                     </configuration>  
                 </configuration>  
             </plugin>  
