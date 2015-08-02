@@ -187,16 +187,16 @@
                 <groupId>org.codehaus.cargo</groupId>  
                 <artifactId>cargo-maven2-plugin</artifactId>  
                 <version>1.4.0</version>  
-                <configuration>  
+                <configuration>
                     <container>  
                         <containerId>tomcat6x</containerId>  
-                        <home>/home/lm/stu01/apache-tomcat-8.0.24</home>  
-                    </container>  
+                        <home>/home/lm/stu01/apache-tomcat-8.0.24</home>
+                    </container>
                     <configuration>  
-                        <type>existing</type>  
-                        <home>/home/lm/stu01/apache-tomcat-8.0.24</home>  
+                        <type>existing</type>
+                        <home>/home/lm/stu01/apache-tomcat-8.0.24</home>
                     </configuration>  
-                </configuration>  
+                </configuration>
             </plugin>  
         </plugins>
     </build>
