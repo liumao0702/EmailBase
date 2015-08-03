@@ -177,11 +177,11 @@
                 <configuration>
                     <container>  
                         <containerId>tomcat6x</containerId>  
-                        <home>/home/lm/stu01/apache-tomcat-8.0.24</home>
+                        <home>D:\apache-tomcat-6.0.35</home>
                     </container>
                     <configuration>  
                         <type>existing</type>
-                        <home>/home/lm/stu01/apache-tomcat-8.0.24</home>
+                        <home>D:\apache-tomcat-6.0.35</home>
                     </configuration>  
                 </configuration>
             </plugin>  
