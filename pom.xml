@@ -161,16 +161,16 @@
     <build>
         <finalName>EmailBase</finalName>
         <plugins>
-            <plugin>  
+            <!--plugin>  
                 <groupId>org.apache.maven.plugins</groupId>  
                 <artifactId>maven-war-plugin</artifactId>  
                 <version>2.3</version>  
                 <configuration>  
                     <webXml>src/main/webapp/WEB-INF/web.xml</webXml>  
                 </configuration>  
-            </plugin>
+            </plugin>-->  
             <!-- 部署至本机 -->  
-            <plugin>  
+            <!--plugin>  
                 <groupId>org.codehaus.cargo</groupId>  
                 <artifactId>cargo-maven2-plugin</artifactId>  
                 <version>1.4.0</version>  
@@ -184,7 +184,7 @@
                         <home>D:\apache-tomcat-6.0.35</home>
                     </configuration>  
                 </configuration>
-            </plugin>  
+            </plugin>-->    
         </plugins>
     </build>
 </project>
